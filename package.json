@@ -1,0 +1,36 @@
+{
+  "name": "commandlinefu-cli",
+  "version": "0.0.1",
+  "description": "Run commands from commandlinefu.com from the shell",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/israelidanny/commandlinefu-cli.git"
+  },
+  "keywords": [
+    "commandlinefu",
+    "cli",
+    "awesomeness"
+  ],
+  "author": "Danny Povolotski",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/israelidanny/commandlinefu-cli/issues"
+  },
+  "homepage": "https://github.com/israelidanny/commandlinefu-cli",
+  "dependencies": {
+    "blessed": "0.0.x",
+    "cli": "^0.6.3",
+    "debounce": "^1.0.0",
+    "grunt": "^0.4.5",
+    "lodash": "^2.4.1",
+    "request": "^2.40.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "filesearch": "lib/main.js"
+  }
+}
